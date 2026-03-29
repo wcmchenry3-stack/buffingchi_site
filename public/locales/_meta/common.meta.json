@@ -1,0 +1,82 @@
+{
+  "title": {
+    "page": "global",
+    "component": "App",
+    "description": "The site name displayed as the main heading.",
+    "tone": "neutral, brand",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": ["buffingchi"],
+    "notes": "Brand name — do not translate."
+  },
+  "subtitle": {
+    "page": "global",
+    "component": "App",
+    "description": "A short subtitle below the site title, introducing the navigation cards.",
+    "tone": "friendly, concise",
+    "characterLimit": 30,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Should convey 'here are our applications/projects'. Keep short."
+  },
+  "nav.games": {
+    "page": "global",
+    "component": "App",
+    "description": "Navigation card label for the Games subsite.",
+    "tone": "neutral, brand",
+    "characterLimit": 20,
+    "placeholders": [],
+    "doNotTranslate": ["Games"],
+    "notes": "This is a brand name — do not translate."
+  },
+  "nav.games.desc": {
+    "page": "global",
+    "component": "App",
+    "description": "Short description shown under the Games card.",
+    "tone": "friendly, inviting",
+    "characterLimit": 50,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Describe playing web-based games. Keep it short and engaging."
+  },
+  "nav.bookshelfai": {
+    "page": "global",
+    "component": "App",
+    "description": "Navigation card label for the BookshelfAI subsite.",
+    "tone": "neutral, brand",
+    "characterLimit": 20,
+    "placeholders": [],
+    "doNotTranslate": ["BookshelfAI"],
+    "notes": "This is a brand name — do not translate."
+  },
+  "nav.bookshelfai.desc": {
+    "page": "global",
+    "component": "App",
+    "description": "Short description shown under the BookshelfAI card.",
+    "tone": "friendly, modern",
+    "characterLimit": 50,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Describe AI-powered book discovery. Keep it concise."
+  },
+  "nav.rulersai": {
+    "page": "global",
+    "component": "App",
+    "description": "Navigation card label for the RulersAI subsite.",
+    "tone": "neutral, brand",
+    "characterLimit": 20,
+    "placeholders": [],
+    "doNotTranslate": ["RulersAI"],
+    "notes": "This is a brand name — do not translate."
+  },
+  "nav.rulersai.desc": {
+    "page": "global",
+    "component": "App",
+    "description": "Short description shown under the RulersAI card.",
+    "tone": "professional, informative",
+    "characterLimit": 60,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Describe historical political data and analysis. Keep it concise."
+  }
+}
