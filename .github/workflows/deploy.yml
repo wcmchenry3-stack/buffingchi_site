@@ -13,7 +13,7 @@ jobs:
     needs: ci
     uses: wcmchenry3-stack/.github/.github/workflows/called-deploy-render.yml@main
     with:
-      service-name: 'buffingchi-site'
-      service-id: 'RENDER_SERVICE_ID_PLACEHOLDER'
-      zap-target-url: 'https://buffingchi-site.onrender.com'
+      service-name: 'buffingchi'
+      service-id: 'srv-d74mc52dbo4c738vqkk0'
+      zap-target-url: 'https://buffingchi.onrender.com'
     secrets: inherit
