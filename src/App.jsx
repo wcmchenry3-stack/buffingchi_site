@@ -33,7 +33,7 @@ export default function App() {
           <img
             src="/logo.png"
             alt={t('title')}
-            className="mx-auto mb-4 w-48 h-48 object-contain"
+            className="mx-auto mb-4 w-48 h-48 object-contain rounded-full"
           />
           <p className="text-slate-400 text-lg">{t('subtitle')}</p>
         </header>
