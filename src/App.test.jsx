@@ -16,9 +16,9 @@ describe('App', () => {
 
   it('displays the site title as an h1', () => {
     render(<App />);
-    expect(
-      screen.getByRole('heading', { level: 1 })
-    ).toHaveTextContent('buffingchi');
+    expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent(
+      'buffingchi'
+    );
   });
 
   it('displays subtitle text', () => {
@@ -34,7 +34,9 @@ describe('App', () => {
   it('renders all three nav links', () => {
     render(<App />);
     expect(screen.getByRole('link', { name: /Games/i })).toBeInTheDocument();
-    expect(screen.getByRole('link', { name: /BookshelfAI/i })).toBeInTheDocument();
+    expect(
+      screen.getByRole('link', { name: /BookshelfAI/i })
+    ).toBeInTheDocument();
     expect(screen.getByRole('link', { name: /RulersAI/i })).toBeInTheDocument();
   });
 
