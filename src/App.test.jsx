@@ -16,7 +16,9 @@ describe('App', () => {
 
   it('displays the site logo with alt text', () => {
     render(<App />);
-    expect(screen.getByRole('img', { name: /buffingchi/i })).toBeInTheDocument();
+    expect(
+      screen.getByRole('img', { name: /buffingchi/i })
+    ).toBeInTheDocument();
   });
 
   it('displays subtitle text', () => {
