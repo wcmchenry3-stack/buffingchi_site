@@ -30,7 +30,11 @@ export default function App() {
     <div className="min-h-screen bg-slate-900 text-slate-100 flex flex-col items-center justify-center px-6 py-12">
       <main id="main-content" tabIndex={-1} className="w-full max-w-2xl">
         <header className="text-center mb-10">
-          <h1 className="text-4xl font-bold text-white mb-2">{t('title')}</h1>
+          <img
+            src="/logo.png"
+            alt={t('title')}
+            className="mx-auto mb-4 w-48 h-48 object-contain"
+          />
           <p className="text-slate-400 text-lg">{t('subtitle')}</p>
         </header>
 
