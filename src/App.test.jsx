@@ -14,11 +14,11 @@ describe('App', () => {
     expect(screen.getByRole('main')).toBeInTheDocument();
   });
 
-  it('displays the site title as an h1', () => {
+  it('displays the site logo with alt text', () => {
     render(<App />);
-    expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent(
-      'buffingchi'
-    );
+    expect(
+      screen.getByRole('img', { name: /buffingchi/i })
+    ).toBeInTheDocument();
   });
 
   it('displays subtitle text', () => {
