@@ -1,0 +1,3 @@
+[allowlist]
+description = "Cloudflare Web Analytics beacon token is a public value intentionally hardcoded in index.html per analytics.md standard"
+regexes = ['''data-cf-beacon''']
