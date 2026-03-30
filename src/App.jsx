@@ -44,6 +44,7 @@ export default function App() {
               <li key={item.key}>
                 <a
                   href={item.href}
+                  rel="noopener noreferrer"
                   className="block rounded-xl border border-slate-700 bg-slate-800 p-6 hover:border-teal-500 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-teal-400 focus:ring-offset-2 focus:ring-offset-slate-900 transition-colors"
                 >
                   <span className="block text-xl font-semibold text-white mb-1">
