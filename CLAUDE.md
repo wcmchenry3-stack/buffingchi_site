@@ -27,3 +27,7 @@ React + Vite | Tailwind CSS 4 | React Router v7 | i18next (13 locales, `common` 
 - Lint: `npm run lint`
 - i18n check: `npm run i18n:check`
 - i18n translate: `OPENAI_API_KEY=<key> node scripts/translate.js --locale <code> --namespace common`
+
+## Setup (after cloning)
+
+Run `bash scripts/setup-hooks.sh` to install the required git hooks (gitleaks pre-commit secret scan).

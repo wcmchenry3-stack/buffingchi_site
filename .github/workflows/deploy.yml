@@ -15,5 +15,5 @@ jobs:
     with:
       service-name: 'buffingchi'
       service-id: 'srv-d74mc52dbo4c738vqkk0'
-      zap-target-url: 'https://buffingchi.onrender.com'
+      zap-target-url: 'https://buffingchi.com'
     secrets: inherit
