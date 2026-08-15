@@ -78,5 +78,25 @@
     "placeholders": [],
     "doNotTranslate": [],
     "notes": "Describe historical political data and analysis. Keep it concise."
+  },
+  "nav.reports": {
+    "page": "global",
+    "component": "App",
+    "description": "Navigation card label for the Reports subsite.",
+    "tone": "neutral",
+    "characterLimit": 20,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Unlike the other nav labels, this is a generic category word, not a product brand name -- translate normally."
+  },
+  "nav.reports.desc": {
+    "page": "global",
+    "component": "App",
+    "description": "Short description shown under the Reports card.",
+    "tone": "friendly, concise",
+    "characterLimit": 50,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Describe a growing collection of small personal reports/tools, not tied to one topic. Keep it generic."
   }
 }

@@ -1,6 +1,6 @@
 # buffingchi.com
 
-Navigation hub for buffingchi.com — links to Games, BookshelfAI, and RulersAI.
+Navigation hub for buffingchi.com — links to Games, BookshelfAI, RulersAI, and Reports.
 
 ## Stack
 

@@ -17,6 +17,7 @@ React + Vite | Tailwind CSS 4 | React Router v7 | i18next (13 locales, `common` 
 - `games.buffingchi.com` → gaming_app (yahtzee-frontend-6yz5.onrender.com)
 - `bookshelfai.buffingchi.com` → book_app (bookshelf-web-vw0s.onrender.com)
 - `rulersai.buffingchi.com` → office_holder_cursor (office-holder-cursor.onrender.com)
+- `reports.buffingchi.com` → reports_site (reports-site-5av7.onrender.com) — hub for small personal static reports; behind Cloudflare Access, not public
 
 ## Commands
 
