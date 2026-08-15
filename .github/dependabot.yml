@@ -5,8 +5,27 @@ updates:
     schedule:
       interval: 'weekly'
     open-pull-requests-limit: 10
+    groups:
+      # CVE fixes get their own PR so they are never held up behind a routine batch.
+      security-updates:
+        applies-to: security-updates
+        patterns: ['*']
+      # Everything minor/patch arrives as one PR per week. Majors are excluded
+      # and still open individually, because those are the ones worth reading.
+      minor-and-patch:
+        applies-to: version-updates
+        patterns: ['*']
+        update-types: ['minor', 'patch']
 
   - package-ecosystem: 'github-actions'
     directory: '/'
     schedule:
       interval: 'weekly'
+    groups:
+      security-updates:
+        applies-to: security-updates
+        patterns: ['*']
+      actions:
+        applies-to: version-updates
+        patterns: ['*']
+        update-types: ['minor', 'patch']
