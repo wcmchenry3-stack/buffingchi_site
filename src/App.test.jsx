@@ -31,13 +31,14 @@ describe('App', () => {
     expect(screen.getByRole('navigation')).toBeInTheDocument();
   });
 
-  it('renders all three nav links', () => {
+  it('renders all four nav links', () => {
     render(<App />);
     expect(screen.getByRole('link', { name: /Games/i })).toBeInTheDocument();
     expect(
       screen.getByRole('link', { name: /BookshelfAI/i })
     ).toBeInTheDocument();
     expect(screen.getByRole('link', { name: /RulersAI/i })).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: /Reports/i })).toBeInTheDocument();
   });
 
   it('Games link points to correct subdomain', () => {
@@ -61,6 +62,14 @@ describe('App', () => {
     expect(screen.getByRole('link', { name: /RulersAI/i })).toHaveAttribute(
       'href',
       'https://rulersai.buffingchi.com'
+    );
+  });
+
+  it('Reports link points to correct subdomain', () => {
+    render(<App />);
+    expect(screen.getByRole('link', { name: /Reports/i })).toHaveAttribute(
+      'href',
+      'https://reports.buffingchi.com'
     );
   });
 });

@@ -20,6 +20,12 @@ const NAV_ITEMS = [
     labelKey: 'nav.rulersai',
     descKey: 'nav.rulersai.desc',
   },
+  {
+    key: 'reports',
+    href: 'https://reports.buffingchi.com',
+    labelKey: 'nav.reports',
+    descKey: 'nav.reports.desc',
+  },
 ];
 
 export default function App() {
